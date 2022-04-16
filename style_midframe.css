@@ -50,3 +50,147 @@
     order: 0;
     flex-grow: 0;
 }
+
+.frame2_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1168px;
+    height: 537px;
+    left: 0px;
+    top: 90px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px;
+    border: 1px solid rgb(30, 255, 0);
+}
+
+.frame2_div_lowframe1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1168px;
+    height: 254px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.frame2_div_lowframe2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1168px;
+    height: 254px;
+    left: 0px;
+    top: 283px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.card1 {
+    position: static;
+    left: 0%;
+    right: 68.32%;
+    top: 0%;
+    bottom: 0%;
+
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 29px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.card_content1 {
+    position: absolute;
+    left: 5.41%;
+    right: 5.41%;
+    top: 7.87%;
+    bottom: 7.87%;
+}
+
+.card_content_frame7_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    height: 214px;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+}
+
+.ellipse1_1 {}
+
+/*///////////////////////////////////////////*/
+.card2 {
+    position: static;
+    left: 34.16%;
+    right: 34.16%;
+    top: 0%;
+    bottom: 0%;
+
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 29px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.card3 {
+    position: static;
+    left: 68.32%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 29px;
+    border: 1px solid rgb(255, 0, 0);
+}
