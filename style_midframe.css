@@ -18,3 +18,35 @@
     flex-grow: 0;
     margin: 140px 0px;
 }
+
+.frame2_text {
+    position: static;
+    left: 11.3%;
+    right: 11.3%;
+    top: 0%;
+    bottom: 94.37%;
+
+    /* H1 */
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    /* Black 87 */
+
+    color: rgba(0, 0, 0, 0.87);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
