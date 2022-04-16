@@ -47,3 +47,106 @@
     margin: 0px 0px;
     border: 1px solid red;
 }
+
+.frame3_TA_text {
+    position: relative;
+    left: 4.21%;
+    right: 75.79%;
+    top: 25.93%;
+    bottom: 25.93%;
+
+    /* Body 16 */
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+
+    color: #7E7E7E;
+}
+
+.frame3_TA_input_name {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    border: 1px solid #D0CFCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 380px;
+    height: 54px;
+}
+
+.frame3_TA_input_email {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    width: 380px;
+    height: 54px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    margin-top: 50px;
+    border: 1px solid #D0CFCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.frame3_TA_input_phone {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    width: 380px;
+    height: 54px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    margin-top: 50px;
+    border: 1px solid #D0CFCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.frame3_TA_phone_preview {
+    position: relative;
+    left: 4.21%;
+    right: 59.74%;
+    top: 107.41%;
+    bottom: -33.33%;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height, or 117% */
+    margin: 2px 0px 0px 0px;
+
+    color: #7E7E7E;
+}
