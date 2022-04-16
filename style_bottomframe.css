@@ -164,19 +164,20 @@
 .frame3_select_container {
     display: block;
     position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
+    padding-left: 25px;
+    margin-bottom: 15px;
     cursor: pointer;
-    font-size: 22px;
 
+
+    text-align: left;
     user-select: none;
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
-    /* test */
+
     border: 5px solid transparent;
 
 
