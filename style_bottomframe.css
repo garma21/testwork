@@ -30,3 +30,20 @@
     flex-grow: 0;
     margin: 50px 0px;
 }
+
+.frame3_div {
+    position: static;
+    width: 380px;
+    height: 567px;
+    left: 395px;
+    top: 90px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border: 1px solid red;
+}
