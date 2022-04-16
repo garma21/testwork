@@ -45,7 +45,7 @@
     order: 1;
     flex-grow: 0;
     margin: 0px 0px;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 .frame3_TA_text {
@@ -157,7 +157,30 @@
     height: 161px;
     left: 0px;
     top: 43px;
-    border: 1px solid red;
+    border: 0px solid red;
+}
+
+.frame3_select_text {
+    position: relative;
+    width: 380px;
+    height: 25px;
+    top: 8px;
+
+    /* Body 16 */
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0px;
+    /* or 162% */
+
+
+    /* Black 87 */
+
+    color: rgba(0, 0, 0, 0.87);
+    border: 0px solid black;
 }
 
 /*radiobutton*/
@@ -165,11 +188,10 @@
     display: block;
     position: relative;
     padding-left: 25px;
-    margin-bottom: 15px;
     cursor: pointer;
 
 
-    text-align: left;
+
     user-select: none;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -245,4 +267,18 @@
     height: 10px;
     border-radius: 50%;
     background: #00bcd1;
+}
+
+.frame3_TA_photo {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 20.38%;
+    width: 380px;
+    height: 54px;
+
+    border: 1px solid #D0CFCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid red;
 }
