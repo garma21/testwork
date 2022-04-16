@@ -262,7 +262,8 @@
     right: 44.86%;
     top: 95.22%;
     bottom: 0%;
-
+    width: 120px;
+    height: 34px;
 
     /* Inside auto layout */
 
@@ -270,18 +271,32 @@
     order: 2;
     flex-grow: 0;
     margin: 50px 0px;
+    background: #F4E041;
+    border-radius: 80px;
+}
+
+.frame2_rect {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Primary */
+
+
 }
 
 .frame2_button_text {
-    position: absolute;
+    position: relative;
     width: 83px;
     height: 26px;
-    left: calc(50% - 83px/2 + 0.5px);
-    top: calc(50% - 26px/2);
-
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     /* Body 16 */
 
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -293,6 +308,6 @@
     text-align: center;
 
     /* Black 87 */
-
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.87);
 }
