@@ -177,7 +177,7 @@
 
 }
 
-.frame1_textbutton {
+.frame1_textbutt {
     position: relative;
     width: 55px;
     height: 26px;
@@ -194,8 +194,8 @@
     /* identical to box height, or 162% */
 
     display: flex;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     cursor: pointer;
     /* Black 87 */
     margin: 0px;
