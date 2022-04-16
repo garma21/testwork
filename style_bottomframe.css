@@ -140,7 +140,7 @@
     top: 107.41%;
     bottom: -33.33%;
 
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -149,4 +149,99 @@
     margin: 2px 0px 0px 0px;
 
     color: #7E7E7E;
+}
+
+.frame3_select {
+    position: relative;
+    width: 380px;
+    height: 161px;
+    left: 0px;
+    top: 43px;
+    border: 1px solid red;
+}
+
+/*radiobutton*/
+.frame3_select_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+
+    user-select: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    /* test */
+    border: 5px solid transparent;
+
+
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    /* Black 87 */
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+/* Hide the browser's default radio button */
+.frame3_select_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.frame3_select_checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.frame3_select_container:hover input~.frame3_select_checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.frame3_select_container input:checked~.frame3_select_checkmark {
+    background: #00bcd1;
+
+    border: 1px solid #00bcd1;
+    background-color: transparent;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.frame3_select_checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.frame3_select_container input:checked~.frame3_select_checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.frame3_select_container .frame3_select_checkmark:after {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #00bcd1;
 }
