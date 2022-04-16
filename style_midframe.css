@@ -131,7 +131,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 29px;
+    margin: 20px 29px;
     border: 0px solid rgb(255, 0, 0);
 }
 
@@ -268,7 +268,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 29px;
+    margin: 20px 29px;
     border: 0px solid rgb(255, 0, 0);
 }
 
@@ -286,6 +286,6 @@
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 0px 29px;
+    margin: 20px 29px;
     border: 0px solid rgb(255, 0, 0);
 }
