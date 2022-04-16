@@ -195,7 +195,7 @@
 
     display: flex;
     /* align-items: center; */
-    /* text-align: center; */
+    text-align: center;
     cursor: pointer;
     /* Black 87 */
     margin: 0px;
