@@ -1,13 +1,13 @@
-.frame3 {
-    position: static;
+.frame3_text1 {
+    position: relative;
     width: 1170px;
     height: 40px;
-    left: 0px;
+    left: 50%;
     top: 0px;
-
+    transform: translate(-20%);
     /* H1 */
 
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
