@@ -256,3 +256,43 @@
 }
 
 /*///////////////////////////////////////////*/
+.frame2_button {
+    position: static;
+    left: 44.86%;
+    right: 44.86%;
+    top: 95.22%;
+    bottom: 0%;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 50px 0px;
+}
+
+.frame2_button_text {
+    position: absolute;
+    width: 83px;
+    height: 26px;
+    left: calc(50% - 83px/2 + 0.5px);
+    top: calc(50% - 26px/2);
+
+    /* Body 16 */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black 87 */
+
+    color: rgba(0, 0, 0, 0.87);
+}
