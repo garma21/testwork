@@ -131,7 +131,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 20px 29px;
+    margin: 20px;
     border: 0px solid rgb(255, 0, 0);
 }
 
@@ -153,8 +153,9 @@
     top: 7.87%;
     bottom: 7.87%;
 
-    width: 330px;
-    height: 214px;
+    /* width: 370px;
+    height: 254px; */
+    padding: 20px;
 }
 
 .card_content_frame7_1 {
@@ -225,8 +226,9 @@
     position: static;
     width: 330px;
     height: 78px;
-    left: 0px;
+    left: 50%;
     top: 136px;
+    transform: translate(2%, 0);
 
     /* Body 16 */
 
@@ -254,38 +256,3 @@
 }
 
 /*///////////////////////////////////////////*/
-.card2 {
-    position: static;
-    left: 34.16%;
-    right: 34.16%;
-    top: 0%;
-    bottom: 0%;
-
-    border-radius: 16px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 20px 29px;
-    border: 0px solid rgb(255, 0, 0);
-}
-
-.card3 {
-    position: static;
-    left: 68.32%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    border-radius: 16px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 20px 29px;
-    border: 0px solid rgb(255, 0, 0);
-}
