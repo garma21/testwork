@@ -16,7 +16,7 @@
     order: 1;
     flex-grow: 0;
     margin: 140px 0px;
-    max-width: 904px;
+
 }
 
 .frame2_text {
@@ -69,6 +69,7 @@
     flex-grow: 0;
     margin-right: 20px;
     border: 0px solid rgb(0, 0, 0);
+
 }
 
 .frame2_div_lowframe1 {
@@ -142,6 +143,7 @@
 
     background: #ffffff;
     border-radius: 10px;
+
 } */
 
 .card_content1 {
@@ -150,10 +152,12 @@
     right: 5.41%;
     top: 7.87%;
     bottom: 7.87%;
-
-    /* width: 370px;
+    max-width: 330px;
+    /* width: 330px;
     height: 254px; */
     padding: 20px;
+
+
 }
 
 .card_content_frame7_1 {

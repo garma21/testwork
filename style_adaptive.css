@@ -1,68 +1,64 @@
 .wrapper {
-    max-width: 1200px;
+    max-width: 2560px;
     margin: 0px auto;
     padding: 0px 15px;
 }
 
 body {
-    max-width: 1200px;
+    max-width: 2560px;
     margin: 0px auto;
-    padding: 0px 15px;
+    padding: 0px 0px;
 }
 
-@media screen and(max-width:1200px) {
-    .body {
-        max-width: 1140px;
+@media (max-width:1440px) {
+    .wrapper {
+        max-width: 1150px;
+        background-color: rgb(255, 255, 255);
     }
 
 
 }
 
 @media(max-width:1199px) {
-    .body {
+    .wrapper {
         max-width: 960px;
     }
 
+    .card1 {
+        max-width: 282px;
+    }
+
+    .frame2_div {
+        max-width: 904px;
+    }
+
+    .card_text1_1 {
+        max-width: 242px;
+        content: "Salvador Stewart Flynn Thomas...";
+    }
+
+    .card_text1_2 {
+        max-width: 242px;
+    }
 }
 
 @media(max-width:991px) {
-    .body {
+    .wrapper {
         max-width: 720px;
 
     }
 }
 
 @media(max-width:767px) {
-    .body {
+    .wrapper {
         max-width: 540px;
 
-    }
-
-    .frame2_div {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-
-        position: static;
-        width: 904px;
-        height: 537px;
-        left: 0px;
-        top: 90px;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-        margin: 50px 0px;
     }
 }
 
-@media(max-width:767px) {
-    .body {
-        max-width: 540px;
+@media(max-width:540px) {
+    .wrapper {
+        max-width: 360px;
 
     }
 }
