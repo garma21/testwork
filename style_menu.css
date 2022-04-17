@@ -9,7 +9,10 @@ body {
     border: 0px solid red;
     margin: 0;
     padding: 0;
+    max-width: 2560px;
 }
+
+
 
 .menu {
     position: absolute;
