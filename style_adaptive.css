@@ -13,15 +13,38 @@ body {
 @media (max-width:1440px) {
     .wrapper {
         max-width: 1150px;
-        background-color: rgb(255, 255, 255);
+        /* background-color: rgb(255, 255, 255); */
     }
+    .logo{
+        width: 104px;
+        height: 26px;
+        left: 60px;
+        top: 17px;
 
-
+    }
+    .frame126{
+        position: absolute;
+        left: 73.63%;
+        right: 5.86%;
+        top: 21.67%;
+        bottom: 21.67%;
+    }
+    .menu{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0%);
+        max-width:1170px;
+        margin: 0px auto;
+    }
 }
 
-@media(max-width:1199px) {
+@media (max-width:1199px) {
+    body{
+        max-width: 1440px;
+    }
     .wrapper {
-        max-width: 960px;
+        max-width: 1024px;
+        /* background-color: rgb(255, 0, 0); */
     }
 
     .card1 {
@@ -34,7 +57,7 @@ body {
 
     .card_text1_1 {
         max-width: 242px;
-        content: "Salvador Stewart Flynn Thomas...";
+        
     }
 
     .card_text1_2 {
@@ -42,17 +65,113 @@ body {
     }
 }
 
-@media(max-width:991px) {
-    .wrapper {
-        max-width: 720px;
 
-    }
-}
-
-@media(max-width:767px) {
+@media(max-width:768px) {
     .wrapper {
         max-width: 540px;
 
+    }       
+    .card1 {
+        max-width: 282px;
+    }
+    .frame126{
+        position: absolute;
+        left: 68.49%;
+        right: 4.17%;
+        top: 21.67%;
+        bottom: 21.67%;
+    }
+    .menu{
+        width:768px;
+        margin: 0px auto;
+    }
+    .frame2_div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: static;
+        width: 704px;
+        height: 794px;
+        left: 0px;
+        top: 90px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 50px 0px;
+    }
+    .frame3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        position: static;
+        width: 704px;
+        height: 741px;
+        left: 32px;
+        top: 1748px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 140px 0px;
+    }
+    .frame3_text1{
+        position: relative;
+        width: 704px;
+        height: 40px;
+        right: 50%;
+        top: 0px;
+        transform: translate(-35%,0%);
+
+        /* H1 */
+
+        font-family: 'Nunito',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        /* identical to box height, or 100% */
+
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+
+        /* Black 87 */
+
+        color: rgba(0, 0, 0, 0.87);
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 50px 0px;
+    }
+    .frame2_button{
+        position: static;
+        left: 41.48%;
+        right: 41.48%;
+        top: 96.49%;
+        bottom: 0%;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 50px 0px;
     }
 }
 
@@ -60,5 +179,96 @@ body {
     .wrapper {
         max-width: 360px;
 
+    }
+    .menu{
+        max-width: 373px;
+    }
+    .logo{
+        max-width: 104px;
+        left: 16px;
+        top: 17px;
+    }
+    .frame126{
+        position: absolute;
+        width: 210px;
+        height: 34px;
+        left: 134px;
+        top: 13px;
+    }
+    .text1{
+        max-width: 328px;
+        max-height: 120px;
+    }
+    .text2{
+        max-width: 328px;
+        max-height: 182px;
+    }
+    .button_frame1{
+        position: static;
+left: 34.76%;
+right: 34.76%;
+top: 91.26%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+        background-color: black;
+    }
+    .frame2_text{
+        max-width: 328px;
+        max-height: 80px;
+    }
+    .frame2_div{
+        display: flex;
+        max-width: 328px;
+        max-height: 1624px;
+        top: 50%;
+    }
+    .card1{
+        max-width: 328px;
+        max-height: 254px;
+    }
+    .frame3_text1{
+        width: 328px;
+        
+        left: 17%;
+
+    }
+    .frame3_TA_input_name{
+        max-width: 328px;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+    .frame3_TA_input_email{
+        max-width: 328px;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+    .frame3_TA_input_phone{
+        max-width: 328px;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+    .frame3_TA_phone_preview{
+        left: 10%;
+    }
+    .frame3_select{
+        max-width: 328px;
+        max-height: 161px;
+        left: 5%;
+    }
+    .frame3_TA_photo{
+        max-width: 328px;
+        max-height: 54px;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+    .frame3_TA_photo_text{
+        left: 30.18%;
     }
 }
